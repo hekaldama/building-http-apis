@@ -138,7 +138,6 @@ class Craigslist
     @urls.each do |url|
       open(url) do |rss|
         @items << Feedjira::Feed.parse(rss.read).entries
-        p @items
       end
     end
 
