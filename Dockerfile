@@ -5,4 +5,4 @@ RUN bundle
 
 WORKDIR /src
 
-CMD ["rackup", "-o", "0.0.0.0", "config.ru"]
+CMD rerun "rackup -o 0.0.0.0 config.ru"
