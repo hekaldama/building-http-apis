@@ -115,6 +115,7 @@ class Craigslist
   #        :cities - Array of cities to search in (default ['reno']. See
   #                  CITIES.
   #        :group - String of either all, owner, or dealer (default all).
+  #        :query - String of what you are searching for.
   #
   #        all other opts are defined by craigslist's API.
   def initialize opts
